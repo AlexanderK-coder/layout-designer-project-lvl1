@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap");
+/* font-family: 'Open Sans', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+/* font-family: 'Neucha', cursive; */
+
+:root {
+   --white: #fff;
+   /* белый */
+   --translucent-white: #d7ccc0;
+   /* полупрозрачный белый */
+   --bright: #f5f4f0;
+   /* светлый */
+   --base: #fe8a02;
+   /* Основной */
+   --base_dark: #42413c;
+   /* Основной тёмный */
+   --dark: #2a2626;
+   /* Тёмный */
+   --translucent-dark: #908d8b;
+   /* Полупрозрачный тёмный */
+   --brown: #b09a81;
+   /* Коричневый */
+   --blue: #1085c5;
+   /* Синий  */
+}
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+header,
+main,
+section,
+footer {
+   display: block;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+html,
+body {
+   height: 100%;
+   width: 100%;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+body {
+   font-family: "Open Sans", sans-serif;
+   font-size: 16px;
+   line-height: 1.6em;
+   color: var(--dark);
+}
+
+h1,
+h2,
+h3,
+h4 {
+   font-family: "Neucha", cursive;
+   font-weight: 400;
+   line-height: 1.2em;
+}
+h1 {
+   font-size: 72px;
+}
+h2 {
+   font-size: 60px;
+}
+h3 {
+   font-size: 34px;
+}
+section {
+   /*! max-width: 1110px; -ВЫЯСНИТЬ ВОПРОС!*/
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}

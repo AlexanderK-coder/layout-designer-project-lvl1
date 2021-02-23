@@ -103,7 +103,30 @@ h3 {
 }
 section {
    /*! max-width: 1110px; -ВЫЯСНИТЬ ВОПРОС!*/
-   text-align: center;
+   text-align: left;
    margin-top: 100px;
    margin-bottom: 100px;
+}
+
+.article-light::before {
+   background-image: url(images/background.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* opacity: 90%; */
+}
+
+title-main {
+   position: absolute;
+   width: 1138px;
+   height: 258px;
+   left: 165px;
+   top: 100px;
+}
+
+.title-1 {
+   color: var(--base);
+}
+
+.title-2 {
+   color: var(--dark);
 }

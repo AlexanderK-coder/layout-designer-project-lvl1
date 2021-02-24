@@ -29,8 +29,7 @@
    border: 0;
 }
 *,
-*:before,
-*:after {
+*:before {
    -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
@@ -42,12 +41,6 @@
 a:focus,
 a:active {
    outline: none;
-}
-header,
-main,
-section,
-footer {
-   display: block;
 }
 
 input,
@@ -71,17 +64,22 @@ a:hover {
 }
 html,
 body {
-   height: 100%;
    width: 100%;
-   -ms-text-size-adjust: 100%;
-   -moz-text-size-adjust: 100%;
-   -webkit-text-size-adjust: 100%;
-}
-body {
+   max-width: 1110px;
+   height: 100%;
    font-family: "Open Sans", sans-serif;
    font-size: 16px;
    line-height: 1.6em;
    color: var(--dark);
+}
+
+header,
+main,
+section,
+footer {
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 100px;
 }
 
 h1,
@@ -101,32 +99,63 @@ h2 {
 h3 {
    font-size: 34px;
 }
-section {
-   /*! max-width: 1110px; -ВЫЯСНИТЬ ВОПРОС!*/
-   text-align: left;
-   margin-top: 100px;
-   margin-bottom: 100px;
+
+.article-light {
+   position: absolute;
+   width: 1440px;
+   height: 914px;
+   left: 0px;
+   top: 0px;
 }
 
 .article-light::before {
+   content: "";
+   position: absolute;
+   align-content: inherit;
+   width: 100%;
+   height: 100%;
+
    background-image: url(images/background.png);
    background-repeat: no-repeat;
    background-size: cover;
-   /* opacity: 90%; */
+   opacity: 10%;
+   left: inherit;
+   top: inherit;
 }
 
 title-main {
    position: absolute;
    width: 1138px;
    height: 258px;
+   text-align: center;
    left: 165px;
    top: 100px;
 }
 
 .title-1 {
+   width: 1138px;
+
+   height: 177.12px;
+   left: 165px;
+   top: 100px;
+   text-align: left;
    color: var(--base);
 }
 
 .title-2 {
+   width: 1138px;
+   height: 73.71px;
+   left: 165px;
+   top: 284.29px;
+   text-align: left;
    color: var(--dark);
+}
+
+main-foto {
+   position: absolute;
+   width: 1082.81px;
+   height: 525px;
+   left: 236px;
+   top: -55px;
+   align-content: inherit;
 }

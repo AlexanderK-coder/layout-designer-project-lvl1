@@ -62,10 +62,12 @@ a:visited {
 a:hover {
    text-decoration: none;
 }
-html,
+html {
+   height: 100%;
+}
+
 body {
    width: 100%;
-   max-width: 1110px;
    height: 100%;
    font-family: "Open Sans", sans-serif;
    font-size: 16px;
@@ -73,10 +75,8 @@ body {
    color: var(--dark);
 }
 
-header,
-main,
-section,
-footer {
+section {
+   max-width: 1100px;
    text-align: center;
    margin-top: 100px;
    margin-bottom: 100px;
@@ -84,8 +84,7 @@ footer {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
    font-family: "Neucha", cursive;
    font-weight: 400;
    line-height: 1.2em;
@@ -100,7 +99,7 @@ h3 {
    font-size: 34px;
 }
 
-.article-light {
+.header {
    position: absolute;
    width: 1440px;
    height: 914px;
@@ -108,7 +107,7 @@ h3 {
    top: 0px;
 }
 
-.article-light::before {
+.header::before {
    content: "";
    position: absolute;
    align-content: inherit;
@@ -123,39 +122,58 @@ h3 {
    top: inherit;
 }
 
-title-main {
+.title-main {
    position: absolute;
    width: 1138px;
    height: 258px;
-   text-align: center;
    left: 165px;
    top: 100px;
+   text-align: left;
 }
 
 .title-1 {
    width: 1138px;
-
-   height: 177.12px;
+   height: 178px;
    left: 165px;
    top: 100px;
-   text-align: left;
+
    color: var(--base);
 }
 
 .title-2 {
    width: 1138px;
-   height: 73.71px;
+   height: 74px;
    left: 165px;
-   top: 284.29px;
-   text-align: left;
+   top: 285px;
+
    color: var(--dark);
 }
 
-main-foto {
+.main-foto {
    position: absolute;
-   width: 1082.81px;
+   width: 1080px;
    height: 525px;
-   left: 236px;
+   left: 253px;
    top: -55px;
    align-content: inherit;
+}
+
+.text-main {
+   text-align: left;
+}
+
+.text-1 {
+   position: absolute;
+   width: 540px;
+   height: 141px;
+   left: 165px;
+   top: 570px;
+}
+
+.text-2 {
+   position: absolute;
+   width: 540px;
+   height: 186px;
+   left: 730px;
+   top: 572px;
 }

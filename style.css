@@ -59,12 +59,14 @@ a:hover {
 }
 
 html,
-body {
+body,
+section {
    width: 1100px;
    height: 100%;
    margin: 0;
    padding: 0;
-   overflow-x: hidden;
+
+   /* overflow-x: hidden; */
 }
 
 body {
@@ -75,11 +77,11 @@ body {
    color: var(--dark);
 }
 
-section {
+/* section {
    text-align: center;
    margin-top: 100px;
    margin-bottom: 100px;
-}
+} */
 
 h1,
 h2,
@@ -101,7 +103,7 @@ h3 {
 }
 
 .header {
-   position: absolute;
+   /* position: absolute; */
    width: 1440px;
    height: 914px;
    left: 0px;
@@ -111,16 +113,16 @@ h3 {
 .header::before {
    content: "";
    position: absolute;
-   align-content: inherit;
+   /* align-content: left; */
    width: 100%;
    height: 100%;
 
-   background-image: url(Images/background1.png);
+   background-image: url(Images/background.png);
    background-repeat: no-repeat;
    background-size: cover;
    opacity: 10%;
-   left: inherit;
-   top: inherit;
+   left: 0px;
+   top: 0px;
 }
 
 .title-main {
@@ -134,33 +136,33 @@ h3 {
 
 .title-1 {
    width: 1138px;
-   height: 178px;
+   height: 177.12px;
    left: 165px;
    top: 100px;
-
    color: var(--base);
 }
 
 .title-2 {
    width: 1138px;
-   height: 74px;
+   height: 73.71px;
    left: 165px;
-   top: 285px;
+   top: 284.29px;
 
    color: var(--dark);
 }
 
 .main-foto {
    position: absolute;
-   width: 1080px;
+   width: 1082.81px;
    height: 525px;
-   left: 243px;
-   top: -58px;
-   /*! -45px при HTML 1100 */
-   align-content: inherit;
+   left: 444px;
+   top: 45px;
 }
 
 .text-main {
+   position: relative;
+   height: 186px;
+   margin-top: 560px;
    text-align: left;
 }
 
@@ -169,22 +171,20 @@ h3 {
    width: 540px;
    height: 141px;
    left: 165px;
-   top: 570px;
 }
 
 .text-2 {
    position: absolute;
    width: 540px;
    height: 186px;
-   left: 730px;
-   top: 572px;
+   left: 740px;
 }
 .button {
    position: absolute;
    width: 148px;
    height: 49px;
-   left: 706px;
-   top: 790px;
+   left: 715px;
+   top: 210px;
    margin: 12px 24px;
    background-color: var(--base);
 }
@@ -193,3 +193,44 @@ a {
    font-weight: 700;
    text-transform: uppercase;
 }
+
+.video-main {
+   /* position: absolute; */
+   /* position: relative; */
+   width: 1440px;
+   height: 914px;
+   left: 0px;
+   /* top: 914px; */
+}
+.title-video {
+   /* position: relative; */
+   width: 1110px;
+   height: 220px;
+   left: 165px;
+   top: 100px;
+   margin: 0;
+
+   text-align: center;
+}
+
+.text-video-1 .title-video-1 {
+   align-items: center;
+   color: var(--dark);
+}
+
+.text-video-2 {
+   text-align: center;
+   color: var(--base);
+}
+
+.title-video-1 {
+   margin-top: 32px;
+}
+
+.video {
+   left: 261px;
+   top: 350px;
+}
+
+/*? Позиционирование */
+/*! SHADOW */

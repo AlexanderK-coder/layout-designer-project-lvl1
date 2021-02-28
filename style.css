@@ -194,21 +194,23 @@ a {
    text-transform: uppercase;
 }
 
+/** БЛОК ВИДЕО */
+
 .video-main {
-   /* position: absolute; */
+   position: absolute;
    /* position: relative; */
    width: 1440px;
    height: 914px;
    left: 0px;
-   /* top: 914px; */
+   top: 914px;
 }
 .title-video {
-   /* position: relative; */
+   position: absolute;
    width: 1110px;
    height: 220px;
    left: 165px;
    top: 100px;
-   margin: 0;
+   margin-bottom: 100px;
 
    text-align: center;
 }
@@ -228,9 +230,20 @@ a {
 }
 
 .video {
+   position: absolute;
+   align-items: center;
    left: 261px;
-   top: 350px;
+   top: 360px;
+   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+   z-index: 1;
 }
 
-/*? Позиционирование */
-/*! SHADOW */
+.nav {
+   position: absolute;
+   width: 1440px;
+   height: 891px;
+   left: 0px;
+   top: 1743px;
+
+   background: var(--base_dark);
+}

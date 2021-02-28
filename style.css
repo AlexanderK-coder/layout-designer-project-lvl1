@@ -247,3 +247,18 @@ a {
 
    background: var(--base_dark);
 }
+
+table {
+   position: relative;
+   border-collapse: separate;
+   border-spacing: 30px 20px;
+   left: 165px;
+}
+
+/*! Посчитать все расстояния */
+
+td {
+   height: 348px;
+   width: 350px;
+   background-color: white;
+}

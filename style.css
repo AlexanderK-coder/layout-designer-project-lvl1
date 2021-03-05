@@ -189,7 +189,7 @@ h3 {
    background-color: var(--base);
 }
 a {
-   color: white;
+   color: var(--white);
    font-weight: 700;
    text-transform: uppercase;
 }
@@ -241,7 +241,7 @@ a {
 .nav {
    position: absolute;
    width: 1440px;
-   height: 891px;
+   height: 1041px;
    left: 0px;
    top: 1743px;
 
@@ -253,13 +253,51 @@ table {
    border-collapse: separate;
    border-spacing: 30px 20px;
    left: 165px;
+   padding-top: 200px;
 }
-
-/*! Посчитать все расстояния */
-/* отработать branch */
 
 td {
    height: 348px;
    width: 350px;
    background-color: white;
 }
+
+.card-main {
+   background: var(--base_dark);
+   text-align: top;
+
+   font-family: "Neucha", cursive;
+   font-size: 52px;
+   line-height: 120%;
+   color: var(--base);
+}
+span {
+   color: var(--white);
+}
+.card {
+   padding: 24px;
+   vertical-align: top;
+}
+
+.num {
+   position: relative;
+   height: 64px;
+   font-family: "Neucha", cursive;
+   font-weight: 400;
+   font-size: 64px;
+   top: 24px;
+   margin-bottom: 40px;
+}
+
+.card-title {
+   font-family: Neucha;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 34px;
+   line-height: 120%;
+   color: var(--base);
+}
+
+/*! Посчитать все расстояния начиная с видео*/
+/* отработать branch соединить потом*/
+/* найти css linter */

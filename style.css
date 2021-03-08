@@ -1,303 +1,293 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap");
-/* font-family: 'Open Sans', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
-/* font-family: 'Neucha', cursive; */
 
 :root {
-   --white: #fff;
-   /* белый */
-   --translucent-white: #d7ccc0;
-   /* полупрозрачный белый */
-   --bright: #f5f4f0;
-   /* светлый */
-   --base: #fe8a02;
-   /* Основной */
-   --base_dark: #42413c;
-   /* Основной тёмный */
-   --dark: #2a2626;
-   /* Тёмный */
-   --translucent-dark: #908d8b;
-   /* Полупрозрачный тёмный */
-   --brown: #b09a81;
-   /* Коричневый */
-   --blue: #1085c5;
-   /* Синий  */
+  --white: #fff; /* белый */
+  --translucent-white: #d7ccc0; /* полупрозрачный белый */
+  --bright: #f5f4f0; /* светлый */
+  --base: #fe8a02; /* Основной */
+  --base_dark: #42413c; /* Основной тёмный */
+  --dark: #2a2626; /* Тёмный */
+  --translucent-dark: #908d8b; /* Полупрозрачный тёмный */
+  --brown: #b09a81; /* Коричневый */
+  --blue: #1085c5; /* Синий  */
 }
+
 *,
-*:before {
-   -moz-box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   box-sizing: border-box;
+*::before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 :focus,
 :active {
-   outline: none;
-}
-a:focus,
-a:active {
-   outline: none;
+  outline: none;
 }
 
 input,
 button,
 textarea {
-   font-family: inherit;
+  font-family: inherit;
 }
 
 input::-ms-clear {
-   display: none;
+  display: none;
 }
+
 button {
-   cursor: pointer;
+  cursor: pointer;
 }
-a,
+
+a {
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 a:visited {
-   text-decoration: none;
+  text-decoration: none;
 }
+
+a:focus,
+a:active {
+  outline: none;
+}
+
 a:hover {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 html,
 body,
 section {
-   width: 1100px;
-   height: 100%;
-   margin: 0;
-   padding: 0;
-
-   /* overflow-x: hidden; */
+  width: 1100px;
+  height: 100%;
+  padding: 0; /* overflow-x: hidden; */
+  margin: 0;
 }
 
 body {
-   height: 100%;
-   font-family: "Open Sans", sans-serif;
-   font-size: 16px;
-   line-height: 1.6em;
-   color: var(--dark);
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark);
 }
-
-/* section {
-   text-align: center;
-   margin-top: 100px;
-   margin-bottom: 100px;
-} */
 
 h1,
 h2,
 h3 {
-   font-family: "Neucha", cursive;
-   font-weight: 400;
-   line-height: 1.2em;
-   margin-top: 0;
-   margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Neucha", cursive;
+  font-weight: 400;
+  line-height: 1.2em;
 }
+
 h1 {
-   font-size: 72px;
+  font-size: 72px;
 }
+
 h2 {
-   font-size: 60px;
+  font-size: 60px;
 }
+
 h3 {
-   font-size: 34px;
+  font-size: 34px;
 }
 
 .header {
-   /* position: absolute; */
-   width: 1440px;
-   height: 914px;
-   left: 0px;
-   top: 0px;
+  /* position: absolute; */
+  top: 0 px;
+  left: 0 px;
+  width: 1440px;
+  height: 914px;
 }
 
 .header::before {
-   content: "";
-   position: absolute;
-   /* align-content: left; */
-   width: 100%;
-   height: 100%;
-
-   background-image: url(Images/background.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   opacity: 10%;
-   left: 0px;
-   top: 0px;
+  position: absolute; /* align-content: left; */
+  top: 0 px;
+  left: 0 px;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-image: url(Images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
 }
 
 .title-main {
-   position: absolute;
-   width: 1138px;
-   height: 258px;
-   left: 165px;
-   top: 100px;
-   text-align: left;
+  position: absolute;
+  top: 100px;
+  left: 165px;
+  width: 1138px;
+  height: 258px;
+  text-align: left;
 }
 
 .title-1 {
-   width: 1138px;
-   height: 177.12px;
-   left: 165px;
-   top: 100px;
-   color: var(--base);
+  top: 100px;
+  left: 165px;
+  width: 1138px;
+  height: 177.12px;
+  color: var(--base);
 }
 
 .title-2 {
-   width: 1138px;
-   height: 73.71px;
-   left: 165px;
-   top: 284.29px;
-
-   color: var(--dark);
+  top: 284.29px;
+  left: 165px;
+  width: 1138px;
+  height: 73.71px;
+  color: var(--dark);
 }
 
 .main-foto {
-   position: absolute;
-   width: 1082.81px;
-   height: 525px;
-   left: 444px;
-   top: 45px;
+  position: absolute;
+  top: 45px;
+  left: 444px;
+  width: 1082.81px;
+  height: 525px;
 }
 
 .text-main {
-   position: relative;
-   height: 186px;
-   margin-top: 560px;
-   text-align: left;
+  position: relative;
+  height: 186px;
+  margin-top: 560px;
+  text-align: left;
 }
 
 .text-1 {
-   position: absolute;
-   width: 540px;
-   height: 141px;
-   left: 165px;
+  position: absolute;
+  left: 165px;
+  width: 540px;
+  height: 141px;
 }
 
 .text-2 {
-   position: absolute;
-   width: 540px;
-   height: 186px;
-   left: 740px;
+  position: absolute;
+  left: 740px;
+  width: 540px;
+  height: 186px;
 }
+
 .button {
-   position: absolute;
-   width: 148px;
-   height: 49px;
-   left: 715px;
-   top: 210px;
-   margin: 12px 24px;
-   background-color: var(--base);
-}
-a {
-   color: var(--white);
-   font-weight: 700;
-   text-transform: uppercase;
+  position: absolute;
+  top: 210px;
+  left: 715px;
+  width: 148px;
+  height: 49px;
+  margin: 12px 24px;
+  background-color: var(--base);
 }
 
 /** БЛОК ВИДЕО */
 
 .video-main {
-   position: absolute;
-   /* position: relative; */
-   width: 1440px;
-   height: 914px;
-   left: 0px;
-   top: 914px;
+  position: absolute; /* position: relative; */
+  top: 914px;
+  left: 0 px;
+  width: 1440px;
+  height: 914px;
 }
+
 .title-video {
-   position: absolute;
-   width: 1110px;
-   height: 220px;
-   left: 165px;
-   top: 100px;
-   margin-bottom: 100px;
-
-   text-align: center;
-}
-
-.text-video-1 .title-video-1 {
-   align-items: center;
-   color: var(--dark);
-}
-
-.text-video-2 {
-   text-align: center;
-   color: var(--base);
+  position: absolute;
+  top: 100px;
+  left: 165px;
+  width: 1110px;
+  height: 220px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 .title-video-1 {
-   margin-top: 32px;
+  margin-top: 32px;
+}
+
+.text-video-1 .title-video-1 {
+  align-items: center;
+  color: var(--dark);
+}
+
+.text-video-2 {
+  color: var(--base);
+  text-align: center;
 }
 
 .video {
-   position: absolute;
-   align-items: center;
-   left: 261px;
-   top: 360px;
-   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-   z-index: 1;
+  position: absolute;
+  top: 360px;
+  left: 261px;
+  z-index: 1;
+  align-items: center;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .nav {
-   position: absolute;
-   width: 1440px;
-   height: 1041px;
-   left: 0px;
-   top: 1743px;
-
-   background: var(--base_dark);
+  position: absolute;
+  top: 1743px;
+  left: 0 px;
+  width: 1440px;
+  height: 1041px;
+  background: var(--base_dark);
 }
 
 table {
-   position: relative;
-   border-collapse: separate;
-   border-spacing: 30px 20px;
-   left: 165px;
-   padding-top: 200px;
+  position: relative;
+  left: 165px;
+  padding-top: 200px;
+  border-spacing: 30px 20px;
+  border-collapse: separate;
 }
 
 td {
-   height: 348px;
-   width: 350px;
-   background-color: white;
+  width: 350px;
+  height: 348px;
+  background-color: white;
 }
 
 .card-main {
-   background: var(--base_dark);
-   text-align: top;
+  font-family: "Neucha", cursive;
+  font-size: 52px;
+  line-height: 120%;
+  color: var(--base);
+  text-align: top;
+  background: var(--base_dark);
+}
 
-   font-family: "Neucha", cursive;
-   font-size: 52px;
-   line-height: 120%;
-   color: var(--base);
-}
 span {
-   color: var(--white);
+  color: var(--white);
 }
+
 .card {
-   padding: 24px;
-   vertical-align: top;
+  padding: 24px;
+  vertical-align: top;
 }
 
 .num {
-   position: relative;
-   height: 64px;
-   font-family: "Neucha", cursive;
-   font-weight: 400;
-   font-size: 64px;
-   top: 24px;
-   margin-bottom: 40px;
+  position: relative;
+  top: 24px;
+  height: 64px;
+  margin-bottom: 40px;
+  font-family: "Neucha", cursive;
+  font-size: 64px;
+  font-weight: 400;
 }
 
 .card-title {
-   font-family: Neucha;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 34px;
-   line-height: 120%;
-   color: var(--base);
+  font-family: "Neucha", cursive;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 120%;
+  color: var(--base);
 }
 
-/*! Посчитать все расстояния начиная с видео*/
-/* отработать branch соединить потом*/
+/*! Посчитать все расстояния начиная с видео */
+
+/* отработать branch соединить потом */
+
 /* найти css linter */

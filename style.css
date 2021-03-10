@@ -228,24 +228,25 @@ h3 {
 
 .nav {
   position: absolute;
-  top: 1743px;
+  top: 1730px;
   left: 0 px;
   width: 1440px;
-  height: 1041px;
+  height: 991px;
+  padding-bottom: 100px;
   background: var(--base_dark);
 }
 
 table {
   position: relative;
-  left: 165px;
-  padding-top: 200px;
+  left: 130px;
+  width: 1170px;
+  height: 691px;
+  padding-top: 180px;
   border-spacing: 30px 20px;
   border-collapse: separate;
 }
 
 td {
-  width: 350px;
-  height: 348px;
   background-color: white;
 }
 
@@ -263,6 +264,7 @@ span {
 }
 
 .card {
+  width: 350px;
   padding: 24px;
   vertical-align: top;
 }
@@ -278,6 +280,7 @@ span {
 }
 
 .card-title {
+  margin-bottom: 16px;
   font-family: "Neucha", cursive;
   font-size: 34px;
   font-style: normal;
@@ -285,6 +288,10 @@ span {
   line-height: 120%;
   color: var(--base);
 }
+
+/* .card-text > p {
+  margin-bottom: 0 px;
+} */
 
 /*! Посчитать все расстояния начиная с видео */
 

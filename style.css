@@ -289,7 +289,7 @@ span {
   color: var(--base);
 }
 
-/*? Ikea Effect */
+/* ? Ikea Effect */
 
 .ikea-effect {
   position: absolute;
@@ -358,5 +358,7 @@ span {
 }
 
 /* todo разобраться с маргинами в топике */
+
 /* ? понять как делать закладки в css */
+
 /** Объединить версии */

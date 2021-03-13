@@ -313,7 +313,7 @@ span {
   opacity: 10%;
 }
 
-.page-foto {
+.page-left-foto {
   position: absolute;
   top: 100px;
   left: 165px;
@@ -323,7 +323,11 @@ span {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.topic-title {
+.right-foto {
+  left: 773px;
+}
+
+.right-topic-title {
   position: absolute;
   top: 100px;
   left: 773px;
@@ -382,7 +386,36 @@ span {
 
 /* конец модуля страницы */
 
-/* todo разобраться с маргинами в топике */
+/* PreOpt страница  */
+
+.pre-opt {
+  top: 3624px;
+  background-color: var(--brown);
+}
+
+.pre-opt-foto {
+  background: url(2.png);
+}
+
+.left-topic {
+  left: 165px;
+  color: var(--white);
+}
+
+.left-topic > .topic-title-1 {
+  color: var(--translucent-white);
+}
+
+.light-title > h4 {
+  color: var(--brown);
+  background-color: var(--white);
+}
+
+.light {
+  color: var(--white);
+}
+
+/* конец Pre страницы */
 
 /* ? понять как делать закладки в css */
 

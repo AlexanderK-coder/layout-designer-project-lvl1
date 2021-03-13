@@ -364,7 +364,7 @@ span {
   top: 634px;
   left: 165px;
   width: 1110px;
-  height: 175px;
+  height: 200px;
   column-count: 2;
   margin-top: 0;
   text-align: initial;
@@ -386,16 +386,16 @@ span {
 
 /* конец модуля страницы */
 
-/* PreOpt страница  */
+/* PreOpt страница отличия варианта 2  */
 
 .pre-opt {
   top: 3624px;
   background-color: var(--brown);
 }
 
-.pre-opt-foto {
+/* .pre-opt-foto {
   background: url(2.png);
-}
+} */
 
 .left-topic {
   left: 165px;
@@ -405,6 +405,10 @@ span {
 .left-topic > .topic-title-1 {
   color: var(--translucent-white);
 }
+
+/* .light-title {
+  height: 190px;
+} */
 
 .light-title > h4 {
   color: var(--brown);
@@ -417,6 +421,27 @@ span {
 
 /* конец Pre страницы */
 
-/* ? понять как делать закладки в css */
+.dist-nov {
+  top: 4529px;
+}
+
+/* конец dist страницы */
+
+.giper-dep {
+  top: 5409px;
+  background-color: var(--brown);
+}
+
+/* конец Giper страницы */
+
+.err-plan {
+  top: 6346px;
+}
+
+#citate {
+  margin-bottom: 16px;
+}
+
+/* конец Err страницы */
 
 /** Объединить версии */

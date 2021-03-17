@@ -1,0 +1,539 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+:root {
+  --white: #fff; /* белый */
+  --translucent-white: #d7ccc0; /* полупрозрачный белый */
+  --bright: #f5f4f0; /* светлый */
+  --base: #fe8a02; /* Основной */
+  --base_dark: #42413c; /* Основной тёмный */
+  --dark: #2a2626; /* Тёмный */
+  --translucent-dark: #908d8b; /* Полупрозрачный тёмный */
+  --brown: #b09a81; /* Коричневый */
+  --blue: #1085c5; /* Синий  */
+}
+
+*,
+*::before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  font-weight: 700;
+  color: var(--white);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html,
+body,
+section {
+  width: 1440px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark);
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Neucha", cursive;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+.header {
+  top: 0 px;
+  left: 0 px;
+  height: 914px;
+}
+
+.header::before {
+  position: absolute;
+  top: 0 px;
+  left: 0 px;
+  width: 1440px;
+  height: 914px;
+  content: "";
+  background-image: url(/Images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
+}
+
+/* На первой странице подгон размерывпод полное визуальное сходство - не айс! */
+
+.title-main {
+  position: absolute;
+  top: 100px;
+  left: 165px;
+  width: 1138px;
+  height: 258px;
+  text-align: left;
+}
+
+.title-1 {
+  top: 100px;
+  left: 165px;
+  width: 1138px;
+  height: 178px;
+  color: var(--base);
+}
+
+.title-2 {
+  top: 284.29px;
+  left: 165px;
+  width: 1138px;
+  height: 75px;
+  color: var(--dark);
+}
+
+.main-foto {
+  position: absolute;
+  top: 45px;
+  left: 444px;
+  width: 1080px;
+  height: 525px;
+}
+
+.text-1 {
+  position: absolute;
+  left: 165px;
+  width: 540px;
+  height: 141px;
+  margin-top: 560px;
+}
+
+.text-2 {
+  position: absolute;
+  left: 740px;
+  width: 540px;
+  height: 186px;
+  margin-top: 560px;
+}
+
+.button {
+  position: absolute;
+  top: 770px;
+  left: 715px;
+  width: 148px;
+  height: 49px;
+  margin: 12px 24px;
+  background-color: var(--base);
+}
+
+/** БЛОК ВИДЕО */
+
+.video-main {
+  position: absolute;
+  top: 914px;
+  left: 0 px;
+  width: 1440px;
+  height: 914px;
+}
+
+.title-video {
+  position: absolute;
+  top: 100px;
+  left: 165px;
+  width: 1110px;
+  height: 220px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.title-video-1 {
+  margin-top: 32px;
+}
+
+.text-video-1 .title-video-1 {
+  align-items: center;
+  color: var(--dark);
+}
+
+.text-video-2 {
+  color: var(--base);
+  text-align: center;
+}
+
+.video {
+  position: absolute;
+  top: 360px;
+  left: 261px;
+  z-index: 1;
+  align-items: center;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.nav {
+  position: absolute;
+  top: 1730px;
+  left: 0 px;
+  width: 1440px;
+  height: 991px;
+  padding-bottom: 100px;
+  background: var(--base_dark);
+}
+
+table {
+  position: relative;
+  left: 130px;
+  width: 1170px;
+  height: 691px;
+  padding-top: 180px;
+  border-spacing: 30px 20px;
+  border-collapse: separate;
+}
+
+td {
+  background-color: var(--white);
+}
+
+.card-main {
+  font-family: "Neucha", cursive;
+  font-size: 52px;
+  line-height: 120%;
+  color: var(--base);
+  text-align: top;
+  background: var(--base_dark);
+}
+
+span {
+  color: var(--white);
+}
+
+.card {
+  width: 350px;
+  padding: 24px;
+  vertical-align: top;
+}
+
+.num {
+  position: relative;
+  top: 24px;
+  height: 64px;
+  margin-bottom: 40px;
+  font-family: "Neucha", cursive;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.card-title {
+  margin-bottom: 16px;
+  font-family: "Neucha", cursive;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 120%;
+  color: var(--base);
+}
+
+/*  Ikea Effect */
+
+.ikea-effect {
+  top: 2719px;
+}
+
+.ikea-foto {
+  background: url(/Images/1.png);
+}
+
+/* модуль страницы вариант 1 */
+
+.page {
+  position: absolute;
+  left: 0 px;
+  width: 1440px;
+  height: 905px;
+}
+
+.page::after {
+  position: absolute;
+  width: 1440px;
+  height: 905px;
+  content: "";
+  background-image: url(/Images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
+}
+
+.page-left-foto {
+  position: absolute;
+  top: 100px;
+  left: 165px;
+  z-index: 1;
+  width: 578px;
+  height: 434px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.right-foto {
+  left: 697px;
+}
+
+.right-topic-title {
+  position: absolute;
+  top: 100px;
+  left: 773px;
+  width: 502px;
+  height: 539px;
+  font-family: "Neucha", cursive;
+  font-weight: 400;
+}
+
+.topic-title-1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--translucent-dark);
+}
+
+.topic-title-2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 60px;
+  line-height: 72px;
+  color: var(--dark);
+}
+
+.topic-title-3 {
+  margin: 0;
+  font-size: 34px;
+  line-height: 41px;
+  color: var(--dark);
+}
+
+.topic-text-title {
+  position: absolute;
+  top: 634px;
+  left: 165px;
+  width: 1110px;
+  height: 200px;
+  column-count: 2;
+  margin-top: 0;
+  text-align: initial;
+}
+
+.topic-text-title > h4 {
+  padding-left: 10px;
+  margin-top: 0;
+  color: var(--white);
+  text-align: left;
+  column-span: all;
+  background-color: var(--brown);
+}
+
+.topic-text-title > p {
+  margin: 0;
+  text-align: initial;
+}
+
+/* конец модуля страницы */
+
+/* PreOpt страница отличия варианта 2  */
+
+.pre-opt {
+  top: 3624px;
+  background-color: var(--brown);
+}
+
+.left-topic {
+  left: 165px;
+  color: var(--white);
+}
+
+.left-topic > .topic-title-1 {
+  color: var(--translucent-white);
+}
+
+.light-title > h4 {
+  color: var(--brown);
+  background-color: var(--white);
+}
+
+.light {
+  color: var(--white);
+}
+
+/* конец Pre страницы */
+
+.dist-nov {
+  top: 4529px;
+}
+
+/* конец dist страницы */
+
+.giper-dep {
+  top: 5409px;
+  background-color: var(--brown);
+}
+
+/* конец Giper страницы */
+
+.err-plan {
+  top: 6346px;
+}
+
+blockquote {
+  margin-left: 0;
+}
+
+/* конец Err страницы */
+
+.footer {
+  position: absolute;
+  top: 7265px;
+  left: 0 px;
+  width: 1440px;
+  height: 580px;
+  background: var(--white);
+}
+
+.subscribe {
+  position: absolute;
+  top: 100px;
+  left: 165px;
+  width: 1110px;
+  height: 190px;
+  column-count: 2;
+  break-after: inherit;
+  color: var(--white);
+  background: var(--base_dark);
+}
+
+.rules {
+  margin-top: 0;
+  margin-left: 15px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.rules > a {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--white);
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.sub-title-1 {
+  margin: 55px;
+  font-family: "Neucha", cursive;
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.sub-text-2 {
+  margin: 15px 0 10px 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+::placeholder {
+  opacity: 20%;
+}
+
+.submit {
+  display: flex;
+  justify-content: row;
+  width: 490px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+#form-text,
+#sub-text {
+  width: 420px;
+  height: 50px;
+  padding: 0;
+  border: none;
+}
+
+.btn {
+  width: 70px;
+  height: 50px;
+  padding: 10px;
+  background-color: var(--base);
+  border: none;
+}
+
+.info {
+  position: absolute;
+  top: 260px;
+  left: 320px;
+  width: 490px;
+  height: 120px;
+  font-size: 14px;
+  line-height: 1.6em;
+  color: var(--dark);
+  text-align: center;
+}
+
+.info > p > a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: var(--blue);
+  text-decoration: underline;
+  text-transform: initial;
+}
+
+/* попробовать модифицировать в вестке table */
+
+/** Объединить версии */

@@ -438,8 +438,8 @@ span {
   top: 6346px;
 }
 
-#citate {
-  margin-bottom: 16px;
+blockquote {
+  margin-left: 0;
 }
 
 /* конец Err страницы */

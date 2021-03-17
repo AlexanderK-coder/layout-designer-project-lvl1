@@ -68,7 +68,6 @@ section {
 }
 
 body {
-  /* max-width: 144px; */
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
@@ -98,7 +97,6 @@ h3 {
 }
 
 .header {
-  /* position: absolute; */
   top: 0 px;
   left: 0 px;
   height: 914px;
@@ -117,7 +115,7 @@ h3 {
   opacity: 10%;
 }
 
-/* На первой странице подгонял размеры под полное визуальное сходство */
+/* На первой странице подгон размерывпод полное визуальное сходство - не айс! */
 
 .title-main {
   position: absolute;
@@ -284,7 +282,8 @@ span {
   color: var(--base);
 }
 
-/* ? Ikea Effect */
+/*  Ikea Effect */
+
 .ikea-effect {
   top: 2719px;
 }
@@ -393,10 +392,6 @@ span {
   background-color: var(--brown);
 }
 
-/* .pre-opt-foto {
-  background: url(2.png);
-} */
-
 .left-topic {
   left: 165px;
   color: var(--white);
@@ -405,10 +400,6 @@ span {
 .left-topic > .topic-title-1 {
   color: var(--translucent-white);
 }
-
-/* .light-title {
-  height: 190px;
-} */
 
 .light-title > h4 {
   color: var(--brown);
@@ -449,7 +440,7 @@ blockquote {
   top: 7265px;
   left: 0 px;
   width: 1440px;
-  height: 581px;
+  height: 580px;
   background: var(--white);
 }
 
@@ -459,31 +450,88 @@ blockquote {
   left: 165px;
   width: 1110px;
   height: 190px;
+  column-count: 2;
+  break-after: inherit;
   color: var(--white);
   background: var(--base_dark);
 }
 
-.sub-title {
-  position: relative;
-  top: 55px;
-  left: 55px;
-  width: 393px;
-  height: 80px;
+.rules {
+  margin-top: 0;
+  margin-left: 15px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.rules > a {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--white);
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.sub-title-1 {
+  margin: 55px;
   font-family: "Neucha", cursive;
   font-size: 34px;
   line-height: 41px;
-  text-align: left;
 }
 
-.sub-text-1 {
-  position: absolute;
-  top: 38px;
-  left: 570px;
-  width: 184px;
-  height: 28px;
+.sub-text-2 {
+  margin: 15px 0 10px 15px;
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   line-height: 160%;
+}
+
+::placeholder {
+  opacity: 20%;
+}
+
+.submit {
+  display: flex;
+  justify-content: row;
+  width: 490px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+#form-text,
+#sub-text {
+  width: 420px;
+  height: 50px;
+  padding: 0;
+  border: none;
+}
+
+.btn {
+  width: 70px;
+  height: 50px;
+  padding: 10px;
+  background-color: var(--base);
+  border: none;
+}
+
+.info {
+  position: absolute;
+  top: 260px;
+  left: 320px;
+  width: 490px;
+  height: 120px;
+  font-size: 14px;
+  line-height: 1.6em;
+  color: var(--dark);
+  text-align: center;
+}
+
+.info > p > a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: var(--blue);
+  text-decoration: underline;
+  text-transform: initial;
 }
 
 /** Объединить версии */

@@ -62,7 +62,7 @@ a:hover {
 html,
 body,
 section {
-  width: 1440px;
+  width: 1110px;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -98,8 +98,10 @@ h3 {
 }
 
 .header {
-  top: 0 px;
+  top: 100 px;
+  bottom: 100px;
   left: 0 px;
+  max-width: 1110px;
   height: 914px;
 }
 
@@ -107,7 +109,7 @@ h3 {
   position: absolute;
   top: 0 px;
   left: 0 px;
-  width: 1440px;
+  width: 1110px;
   height: 914px;
   content: "";
   background-image: url(/Images/background.png);
@@ -122,7 +124,7 @@ h3 {
   position: absolute;
   top: 100px;
   left: 165px;
-  width: 1138px;
+  width: 1110px;
   height: 258px;
   text-align: left;
 }
@@ -130,7 +132,7 @@ h3 {
 .title-1 {
   top: 100px;
   left: 165px;
-  width: 1138px;
+  width: 1110px;
   height: 178px;
   color: var(--base);
 }
@@ -138,16 +140,16 @@ h3 {
 .title-2 {
   top: 284.29px;
   left: 165px;
-  width: 1138px;
+  width: 1110px;
   height: 75px;
   color: var(--dark);
 }
 
 .main-foto {
   position: absolute;
-  top: 45px;
+  top: 50px;
   left: 444px;
-  width: 1080px;
+  width: 1110px;
   height: 525px;
 }
 

@@ -292,9 +292,9 @@ span {
   top: 2719px;
 }
 
-.ikea-foto {
+/* .ikea-foto {
   background: url(/Images/1.png);
-}
+} */
 
 /* модуль страницы вариант 1 */
 
@@ -305,7 +305,7 @@ span {
   height: 905px;
 }
 
-.page::after {
+.page::before {
   position: absolute;
   width: 1440px;
   height: 905px;
@@ -391,7 +391,7 @@ span {
 
 /* PreOpt страница отличия варианта 2  */
 
-.pre-opt {
+#premature-optimization {
   top: 3624px;
   background-color: var(--brown);
 }
@@ -416,20 +416,20 @@ span {
 
 /* конец Pre страницы */
 
-.dist-nov {
+#distortion-of-novelty {
   top: 4529px;
 }
 
 /* конец dist страницы */
 
-.giper-dep {
+#hyperbolic-depreciation {
   top: 5409px;
   background-color: var(--brown);
 }
 
 /* конец Giper страницы */
 
-.err-plan {
+#errors-in-planning {
   top: 6346px;
 }
 

@@ -61,6 +61,7 @@ a:hover {
 
 html,
 body,
+main,
 section {
   width: 1110px;
   height: 100%;
@@ -97,7 +98,7 @@ h3 {
   font-size: 34px;
 }
 
-.header {
+#header {
   top: 100 px;
   bottom: 100px;
   left: 0 px;
@@ -105,7 +106,7 @@ h3 {
   height: 914px;
 }
 
-.header::before {
+#header::before {
   position: absolute;
   top: 0 px;
   left: 0 px;

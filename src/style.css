@@ -223,7 +223,7 @@ header::before {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-nav {
+#navigation {
   position: absolute;
   top: 1730px;
   left: 0 px;
@@ -439,7 +439,7 @@ blockquote {
 
 /* конец Err страницы */
 
-.footer {
+#footer {
   position: absolute;
   top: 7265px;
   left: 0 px;

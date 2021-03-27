@@ -135,7 +135,7 @@ header::before {
 }
 
 .title-2 {
-  top: 270px;
+  top: 267px;
   left: 165px;
   width: 1110px;
   height: 75px;
@@ -155,7 +155,7 @@ header::before {
   left: 165px;
   width: 540px;
   height: 141px;
-  margin-top: 540px;
+  margin-top: 543px;
 }
 
 .text-2 {
@@ -163,12 +163,12 @@ header::before {
   left: 735px;
   width: 540px;
   height: 186px;
-  margin-top: 540px;
+  margin-top: 543px;
 }
 
 .button {
   position: absolute;
-  top: 750px;
+  top: 753px;
   left: 715px;
   width: 148px;
   height: 50px;

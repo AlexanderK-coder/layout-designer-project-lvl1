@@ -35,10 +35,6 @@ input::-ms-clear {
   display: none;
 }
 
-button {
-  cursor: pointer;
-}
-
 a {
   font-weight: 700;
   color: var(--white);
@@ -63,7 +59,7 @@ html,
 body,
 main,
 section {
-  width: 1110px;
+  width: 1440px;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -102,7 +98,7 @@ header {
   top: 100 px;
   bottom: 100px;
   left: 0 px;
-  max-width: 1110px;
+  max-width: 1440px;
   height: 914px;
 }
 
@@ -110,7 +106,7 @@ header::before {
   position: absolute;
   top: 0 px;
   left: 0 px;
-  width: 1110px;
+  width: 1440px;
   height: 914px;
   content: "";
   background-image: url(background.png);
@@ -139,7 +135,7 @@ header::before {
 }
 
 .title-2 {
-  top: 284.29px;
+  top: 280px;
   left: 165px;
   width: 1110px;
   height: 75px;
@@ -149,8 +145,8 @@ header::before {
 .main-foto {
   position: absolute;
   top: 50px;
-  left: 444px;
-  width: 1110px;
+  left: 440px;
+  max-width: 1110px;
   height: 525px;
 }
 
@@ -164,7 +160,7 @@ header::before {
 
 .text-2 {
   position: absolute;
-  left: 740px;
+  left: 735px;
   width: 540px;
   height: 186px;
   margin-top: 560px;
@@ -172,11 +168,14 @@ header::before {
 
 .button {
   position: absolute;
-  top: 770px;
+  top: 750px;
   left: 715px;
   width: 148px;
-  height: 49px;
+  height: 50px;
   margin: 12px 24px;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
   background-color: var(--base);
 }
 
@@ -507,6 +506,7 @@ blockquote {
 }
 
 .btn {
+  cursor: pointer;
   width: 70px;
   height: 50px;
   padding: 10px;

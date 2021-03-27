@@ -130,7 +130,7 @@ header::before {
   top: 100px;
   left: 165px;
   width: 1110px;
-  height: 178px;
+  height: 172px;
   color: var(--base);
 }
 
@@ -138,7 +138,7 @@ header::before {
   top: 261px;
   left: 165px;
   width: 1110px;
-  height: 70px;
+  height: 75px;
   color: var(--dark);
 }
 

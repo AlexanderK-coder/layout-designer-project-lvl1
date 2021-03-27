@@ -135,7 +135,7 @@ header::before {
 }
 
 .title-2 {
-  top: 280px;
+  top: 275px;
   left: 165px;
   width: 1110px;
   height: 75px;
@@ -144,8 +144,8 @@ header::before {
 
 .main-foto {
   position: absolute;
-  top: 50px;
-  left: 440px;
+  top: 35px;
+  left: 435px;
   max-width: 1110px;
   height: 525px;
 }
@@ -173,10 +173,10 @@ header::before {
   width: 148px;
   height: 50px;
   margin: 12px 24px;
-  font-size: 12px;
+  font-size: 16px;
   cursor: pointer;
-  border: none;
   background-color: var(--base);
+  border: none;
 }
 
 /** БЛОК ВИДЕО */

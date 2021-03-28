@@ -377,7 +377,7 @@ span {
   position: absolute;
   top: 634px;
   left: 165px;
-  column-gap: 37px;
+  column-gap: 33px;
   width: 1110px;
   height: 200px;
   column-count: 2;
@@ -414,6 +414,14 @@ span {
 }
 
 .left-topic > .topic-title-1 {
+  color: var(--translucent-white);
+}
+
+.left-topic > .topic-title-2 {
+  color: var(--white);
+}
+
+.left-topic > .topic-title-3 {
   color: var(--translucent-white);
 }
 

@@ -289,6 +289,7 @@ span {
 }
 
 .card-title {
+  padding-top: 8px;
   margin-bottom: 16px;
   font-family: "Neucha", cursive;
   font-size: 34px;

@@ -250,7 +250,8 @@ td {
 }
 
 .card-main {
-  padding: 0 0 8px 9px;
+  position: absolute;
+  padding: 11px 0 0 2px;
   font-family: "Neucha", cursive;
   font-size: 52px;
   line-height: 120%;

@@ -250,7 +250,7 @@ td {
 }
 
 .card-main {
-  padding: 0 0 4px 6px;
+  padding: 0 0 8px 9px;
   font-family: "Neucha", cursive;
   font-size: 52px;
   line-height: 120%;
@@ -265,13 +265,13 @@ span {
 
 .card {
   width: 350px;
-  padding: 20px 20px 24px 29px;
+  padding: 20px 20px 24px 34px;
   vertical-align: top;
 }
 
 .num {
   position: relative;
-  top: 20px;
+  top: 16px;
   height: 64px;
   margin-bottom: 40px;
   font-family: "Neucha", cursive;

@@ -369,7 +369,7 @@ span {
 .topic-title-3 {
   margin: 0;
   font-size: 34px;
-  line-height: 41px;
+  line-height: 42px;
   color: var(--dark);
 }
 
@@ -377,7 +377,7 @@ span {
   position: absolute;
   top: 634px;
   left: 165px;
-  column-gap: 33px;
+  column-gap: 31px;
   width: 1110px;
   height: 200px;
   column-count: 2;

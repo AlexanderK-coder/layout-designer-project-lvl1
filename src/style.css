@@ -265,6 +265,14 @@ span {
 
 .card {
   width: 350px;
+  height: 323px;
+  padding: 20px 20px 24px 29px;
+  vertical-align: top;
+}
+
+.card-1 {
+  width: 350px;
+  height: 348px;
   padding: 20px 20px 24px 29px;
   vertical-align: top;
 }

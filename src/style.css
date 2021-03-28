@@ -269,6 +269,7 @@ span {
   height: 323px;
   padding: 16px 20px 24px 29px;
   vertical-align: top;
+  background-color: var(--bright);
 }
 
 .card-1 {
@@ -276,6 +277,7 @@ span {
   height: 348px;
   padding: 16px 20px 24px 29px;
   vertical-align: top;
+  background-color: var(--bright);
 }
 
 .num {

@@ -144,14 +144,14 @@ header::before {
 
 .main-foto {
   position: absolute;
-  top: 37px;
-  left: 447px;
+  top: 52px;
+  left: 448px;
+  z-index: 1;
   width: 1110px;
   height: 525px;
   background-image: url(main.png);
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 1;
 }
 
 .text-1 {
@@ -322,6 +322,7 @@ span {
 
 .page::before {
   position: absolute;
+
   /* width: 1440px;
   height: 905px; */
   content: "";

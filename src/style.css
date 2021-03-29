@@ -146,8 +146,12 @@ header::before {
   position: absolute;
   top: 35px;
   left: 435px;
-  max-width: 1110px;
+  width: 1110px;
   height: 525px;
+  background-image: url(main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
 }
 
 .text-1 {

@@ -144,14 +144,18 @@ header::before {
 
 .main-foto {
   position: absolute;
-  top: 52px;
+  top: 37px;
   left: 448px;
-  /* z-index: 1; */
+  z-index: 1;
   width: 1110px;
   height: 525px;
   /* background-image: url(main2.png);
   background-repeat: no-repeat;
   background-size: cover; */
+}
+
+img {
+  object-fit: cover;
 }
 
 .text-1 {
@@ -321,8 +325,9 @@ span {
 }
 
 .page::before {
-  position: absolute;
-
+  position: relative;
+  top: 0;
+  left: 0;
   /* width: 1440px;
   height: 905px; */
   content: "";
@@ -374,7 +379,7 @@ span {
 .topic-title-3 {
   margin: 0;
   font-size: 34px;
-  line-height: 42px;
+  line-height: 40.8px;
   color: var(--dark);
 }
 
@@ -393,6 +398,8 @@ span {
 .topic-text-title > h4 {
   padding-left: 10px;
   margin-top: 0;
+  font-size: 14px;
+  line-height: 16.8px;
   color: var(--white);
   text-align: left;
   column-span: all;

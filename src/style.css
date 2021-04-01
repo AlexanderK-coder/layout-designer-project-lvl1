@@ -144,8 +144,8 @@ header::before {
 
 .main-foto {
   position: absolute;
-  top: 37px;
-  left: 448px;
+  top: 55px;
+  left: 461px;
   z-index: 1;
   width: 1110px;
   height: 525px;
@@ -156,7 +156,9 @@ header::before {
 }
 
 img {
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
 }
 
 .text-1 {
@@ -319,21 +321,36 @@ span {
 /* модуль страницы вариант 1 */
 
 .page {
-  position: absolute;
+  /* position: absolute;
   left: 0 px;
-  width: 1440px;
-  height: 905px;
-}
-
-.page::before {
-  position: relative;
-  top: 0;
-  left: 0;
+  /* width: 1440px; */
+  /* height: 905px; */ */
+  /* max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle; */
 
   /* width: 1440px;
   height: 905px; */
   content: "";
   background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
+}
+
+.page-braun {
+  position: absolute;
+  left: 0 px;
+  /* width: 1440px;
+  height: 905px; */
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+
+  /* width: 1440px;
+  height: 905px; */
+  content: "";
+  background: url(background.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 10%;
@@ -401,7 +418,6 @@ span {
   padding-left: 10px;
   margin-top: 0;
   font-size: 14px;
-  line-height: 16.8px;
   color: var(--white);
   text-align: left;
   column-span: all;

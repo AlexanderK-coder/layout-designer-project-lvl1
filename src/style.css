@@ -136,8 +136,10 @@ header::before {
 }
 
 .title-2 {
-  top: 261px;
-  left: 165px;
+  position: absolute;
+  top: 170px;
+  left: 0px;
+  z-index: 2;
   width: 1110px;
   height: 75px;
   color: var(--dark);

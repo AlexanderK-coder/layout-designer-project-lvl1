@@ -138,7 +138,7 @@ header::before {
 .title-2 {
   position: absolute;
   top: 170px;
-  left: 0px;
+  left: 0;
   z-index: 2;
   width: 1110px;
   height: 75px;
@@ -184,6 +184,7 @@ img {
   height: 50px;
   padding-left: 0;
   margin: 12px 24px;
+
   /* font-family: "Open Sans", sans-serif; */
   font-size: 16px;
   font-weight: 700;

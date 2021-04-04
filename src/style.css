@@ -187,7 +187,7 @@ img {
 
   /* font-family: "Open Sans", sans-serif; */
   font-size: 16px;
-  font-weight: 700;
+  font-weight: bold;
   cursor: pointer;
   background-color: var(--base);
   border: none;
@@ -423,6 +423,8 @@ span {
 
 #premature-optimization {
   top: 3624px;
+  left: 0;
+  width: 1440px;
   background-color: var(--brown);
 }
 

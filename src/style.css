@@ -246,9 +246,9 @@ img {
   background: var(--base_dark);
 }
 
-table {
+#navigation > table {
   position: relative;
-  left: 130px;
+  left: 165px;
   width: 1170px;
   height: 691px;
   padding-top: 180px;
@@ -256,7 +256,7 @@ table {
   border-collapse: separate;
 }
 
-td {
+#navigation > table > td {
   background-color: var(--white);
 }
 
@@ -311,14 +311,21 @@ span {
   line-height: 120%;
   color: var(--base);
 }
-
+/*! модуль страницы вариант 1 */
 /*  Ikea Effect */
 
 #ikea-effect {
+  position: absolute;
   top: 2719px;
 }
 
-/* модуль страницы вариант 1 */
+.table-main {
+  position: relative;
+  margin: 0;
+  width: 1110px;
+  top: 100px;
+  left: 165px;
+}
 
 .page {
   position: absolute;
@@ -340,30 +347,32 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 10%;
+  /* z-index: 1; */
 }
 
-.page-left-foto {
-  position: absolute;
-  top: 100px;
-  left: 165px;
-  z-index: 1;
-  width: 578px;
-  height: 434px;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+.img-title {
+  height: 533px;
 }
 
-.right-foto {
-  left: 697px;
+.img-title > td {
+  width: 50%;
+  vertical-align: top;
 }
 
-.right-topic-title {
-  position: absolute;
-  top: 100px;
-  left: 773px;
-  width: 502px;
-  height: 539px;
+.page-img {
+  width: 570px;
+  height: 430px;
+  box-shadow: (0 16px 32px rgba(0, 0, 0, 0.15));
+  /* z-index: 3; */
+}
+
+.topic-title-1,
+.topic-title-2,
+.topic-title-3 {
   font-family: "Neucha", cursive;
   font-weight: 400;
+  line-height: 1em;
+  padding: 0;
 }
 
 .topic-title-1 {
@@ -389,35 +398,34 @@ span {
 }
 
 .topic-text-title {
-  position: absolute;
-  top: 634px;
-  left: 165px;
-  column-gap: 30px;
+  /* position: absolute;
+  top: 534px;
+  left: 0; */
+  column-span: all;
+  /* column-gap: 30px; */
   width: 1110px;
-  height: 200px;
-  column-count: 2;
+  height: 50px;
   margin-top: 0;
-  text-align: initial;
-}
+  /* text-align: initial; */
+  /* }
 
-.topic-text-title > h4 {
+.topic-text-title > h4 { */
   padding-left: 10px;
   margin-top: 0;
   color: var(--white);
   text-align: left;
-  column-span: all;
+  /* column-span: all; */
   background-color: var(--brown);
 
   /* font-size: 14px;
   line-height: 16.8px; */
 }
 
-.topic-text-title > p {
-  margin: 0;
-  text-align: initial;
-}
+/* .topic-text-title > p { */
+/* margin: 0;
+  text-align: initial; */
 
-/* конец модуля страницы */
+/*! конец модуля страницы */
 
 /* PreOpt страница отличия варианта 2  */
 

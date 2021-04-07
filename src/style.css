@@ -363,17 +363,19 @@ span {
 }
 
 .page-img {
-  width: 570px;
-  height: 430px;
-  box-shadow: (0 16px 32px rgba(0, 0, 0, 0.15));
-
-  /* z-index: 3; */
+  position: absolute;
+  /* top: 0px;
+  left: 165px; */
+  z-index: 1;
+  width: 578px;
+  height: 434px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .topic-title-1,
 .topic-title-2,
 .topic-title-3 {
-  padding: 0;
+  padding-left: 70px;
   font-family: "Neucha", cursive;
   font-weight: 400;
   line-height: 1em;
@@ -402,38 +404,31 @@ span {
 }
 
 .topic-text-title {
-  /* position: absolute;
-  top: 534px;
-  left: 0; */
   column-span: all;
-
-  /* column-gap: 30px; */
   width: 1110px;
-  height: 50px;
+  height: 20px;
   padding-left: 10px;
-  margin-top: 0;
 
-  /* text-align: initial; */
-
-  /* .topic-text-title > h4 { */
-
-  /* margin-top: 0; */
-
+  padding-bottom: 0;
+  margin: 0;
   color: var(--white);
   text-align: left;
-
-  /* column-span: all; */
   background-color: var(--brown);
-
-  /* font-size: 14px;
-  line-height: 16.8px; */
+  font-size: 14px;
+  line-height: 16.8px;
 }
 
-/* .topic-text-title > p { */
+.description-1 {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
 
-/* margin: 0;
-  text-align: initial; */
-
+.description-2 {
+  margin: 0;
+  padding-left: 20px;
+  vertical-align: top;
+}
 /*! конец модуля страницы */
 
 /* PreOpt страница отличия варианта 2  */

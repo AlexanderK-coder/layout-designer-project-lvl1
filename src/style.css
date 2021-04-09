@@ -65,6 +65,14 @@ section {
   margin: 0;
 }
 
+table,
+tr,
+td {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -94,18 +102,20 @@ h3 {
   font-size: 34px;
 }
 
+/* ! header */
+
 header {
-  position: absolute;
-  top: 200 px;
+  position: relative;
   left: 0 px;
   width: 1440px;
-  height: 914px;
-  margin-bottom: 100px;
+  height: 1014px;
+  padding: 100px 165px;
 }
 
 header::before {
   position: absolute;
-  top: 0 px;
+  top: 0;
+  left: 0;
   width: 1440px;
   max-width: 100%;
   height: 960px;
@@ -119,73 +129,67 @@ header::before {
 }
 
 .title-main {
-  position: absolute;
-  top: 100px;
-  left: 165px;
-  width: 1110px;
   height: 258px;
   text-align: left;
 }
 
 .title-1 {
   top: 100px;
-  left: 165px;
-  width: 1110px;
-  height: 172px;
+  z-index: 2;
+
+  /* width: 1110px; */
+
+  /* height: 172px; */
   color: var(--base);
 }
 
 .title-2 {
-  position: absolute;
-  top: 170px;
-  left: 0;
   z-index: 2;
-  width: 1110px;
-  height: 75px;
+
+  /* width: 1110px; */
+
+  /* height: 75px; */
   color: var(--dark);
 }
 
 .main-foto {
   position: absolute;
-  top: 55px;
-  left: 461px;
+  top: 35px;
+  left: 445px;
   z-index: 1;
-  width: 1110px;
-  height: 525px;
+
+  /* width: 1110px;
+  height: 525px; */
 }
 
-img {
+/* img {
   max-width: 100%;
   max-height: 100%;
   vertical-align: middle;
-}
+} */
 
-.text-1 {
-  position: absolute;
-  left: 165px;
-  width: 540px;
-  height: 141px;
-  margin-top: 543px;
-}
-
-.text-2 {
-  position: absolute;
-  left: 735px;
-  width: 540px;
+article {
+  width: 1110px;
   height: 186px;
-  margin-top: 543px;
+  margin-top: 200px;
+}
+
+.columns-2 {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.columns-2 > p {
+  margin-top: 0;
 }
 
 .button {
-  position: absolute;
-  top: 753px;
-  left: 715px;
+  position: relative;
+  top: 0;
+  left: 540px;
   width: 148px;
   height: 50px;
-  padding-left: 0;
   margin: 12px 24px;
-
-  /* font-family: "Open Sans", sans-serif; */
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
@@ -193,7 +197,7 @@ img {
   border: none;
 }
 
-/** БЛОК ВИДЕО */
+/*! БЛОК ВИДЕО */
 
 .video-main {
   position: absolute;
@@ -201,12 +205,14 @@ img {
   left: 0 px;
   width: 1440px;
   height: 914px;
+  padding-left: 165px;
 }
 
 .title-video {
   position: absolute;
   top: 70px;
-  left: 165px;
+
+  /* left: 165px; */
   width: 1110px;
   height: 220px;
   margin-bottom: 100px;
@@ -236,6 +242,8 @@ img {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
+/* ! Navigation */
+
 #navigation {
   position: absolute;
   top: 1730px;
@@ -243,12 +251,14 @@ img {
   width: 1440px;
   height: 991px;
   padding-bottom: 100px;
+  padding-left: 145px;
   background: var(--base_dark);
 }
 
 #navigation > table {
   position: relative;
-  left: 145px;
+
+  /* left: 145px; */
   width: 1170px;
   height: 691px;
   padding-top: 180px;
@@ -312,19 +322,19 @@ span {
   color: var(--base);
 }
 
-/*! модуль страницы вариант 1 */
-
-/*  Ikea Effect */
+/*!  Ikea Effect */
 
 #ikea-effect {
   position: absolute;
   top: 2719px;
+  padding-left: 163px;
 }
 
 .table-main {
   position: relative;
   top: 97px;
-  left: 165px;
+
+  /* left: 163px; */
   width: 1110px;
   padding: 0;
   margin: 0;
@@ -350,17 +360,15 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 10%;
-
-  /* z-index: 1; */
-}
-
-.img-title {
-  height: 533px;
 }
 
 .img-title > td {
   width: 50%;
   vertical-align: top;
+}
+
+.img-title {
+  height: 533px;
 }
 
 .page-img {
@@ -413,37 +421,36 @@ span {
   text-align: left;
   vertical-align: baseline;
   background-color: var(--brown);
-
-  /* line-height: 16.8px; */
 }
 
 .description-1 {
-  margin: 0;
   padding: 0;
+  margin: 0;
   vertical-align: top;
 }
 
 .description-2 {
+  padding-top: 0;
+  padding-left: 24px;
   margin: 0;
-  padding-top: 0px;
-  padding-left: 10px;
   vertical-align: top;
 }
 
-/*! конец модуля страницы */
-
-/* PreOpt страница отличия варианта 2  */
+/*! Оптимизация */
 
 #premature-optimization {
   top: 3624px;
   left: 0;
   width: 1440px;
+  padding-right: 165px;
+  padding-left: 165px;
   background-color: var(--brown);
+
+  /* height: auto; */
 }
 
-.left-topic {
-  left: 165px;
-  color: var(--white);
+.left-topic > p {
+  padding-left: 0;
 }
 
 .left-topic > .topic-title-1 {
@@ -458,7 +465,11 @@ span {
   color: var(--translucent-white);
 }
 
-.light-title > h4 {
+.img-right {
+  position: relative;
+}
+
+.light-title > td > h4 {
   color: var(--brown);
   background-color: var(--white);
 }
@@ -467,20 +478,24 @@ span {
   color: var(--white);
 }
 
-/* конец Pre страницы */
+.left {
+  padding-left: 19px;
+}
+
+/*! конец Pre страницы */
 
 #distortion-of-novelty {
   top: 4529px;
 }
 
-/* конец dist страницы */
+/*! конец dist страницы */
 
 #hyperbolic-depreciation {
   top: 5409px;
   background-color: var(--brown);
 }
 
-/* конец Giper страницы */
+/*! конец Giper страницы */
 
 #errors-in-planning {
   top: 6346px;

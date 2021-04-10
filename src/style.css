@@ -129,36 +129,27 @@ header::before {
 }
 
 .title-main {
+  position: relative;
+  z-index: 2;
   height: 258px;
   text-align: left;
 }
 
 .title-1 {
-  top: 100px;
-  z-index: 2;
-
-  /* width: 1110px; */
-
-  /* height: 172px; */
   color: var(--base);
 }
 
 .title-2 {
-  z-index: 3;
-
-  /* width: 1110px; */
-
-  /* height: 75px; */
   color: var(--dark);
 }
 
 .main-foto {
   position: absolute;
+  top: 55px;
+  left: 461px;
+  z-index: 1;
   width: 1082.81px;
   height: 525px;
-  left: 461px;
-  top: 55px;
-  z-index: 1;
 }
 
 img {
@@ -189,7 +180,6 @@ article {
   width: 148px;
   height: 50px;
   margin: 12px 24px;
-  padding-left: 26px;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
@@ -335,12 +325,12 @@ span {
 .table-main {
   position: relative;
   top: 97px;
-  border-spacing: colapse;
-
-  /* left: 163px; */
   width: 1110px;
   padding: 0;
   margin: 0;
+  border-spacing: colapse;
+
+  /* left: 163px; */
 }
 
 .page {

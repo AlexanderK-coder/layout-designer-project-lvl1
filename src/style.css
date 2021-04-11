@@ -171,10 +171,10 @@ article {
 .columns-2 > p {
   margin-top: 0;
 }
-
+/* ? поиграться со шрифтом */
 .button {
   position: relative;
-  top: 12px;
+  top: 8px;
   left: 545px;
   width: 148px;
   height: 50px;
@@ -201,7 +201,7 @@ article {
   /* top: 914px; */
   left: 0 px;
   width: 1440px;
-  height: 914px;
+  height: 814px;
   padding-left: 165px;
   background-color: #fff;
 }
@@ -248,27 +248,21 @@ article {
   /*top: -100px; */
   left: 0 px;
   width: 1440px;
-  height: 891px;
-  padding: 60px 165px 100px 165px;
+  height: 991px;
+  /* padding: 0px 165px 100px 165px; */
   /* padding-left: 145px; */
   background: var(--base_dark);
 }
-.block {
-  position: absolute;
-  left: 0;
-  top: 1736px;
-  width: 1440px;
-  height: 100px;
-  background-color: var(--base_dark);
-}
 
 #navigation > table {
-  position: relative;
+  /* position: relative;
 
-  /* left: 145px; */
-  width: 1170px;
+  left: 145px; */
+  width: 1270px;
   height: 691px;
-  /* padding: 100px, 165px; */
+  padding-top: 184px;
+  padding-left: 135px;
+
   border-spacing: 30px 20px;
   border-collapse: separate;
  

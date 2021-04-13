@@ -442,7 +442,7 @@ span {
 }
 
 .description-2 {
-  padding-top: 2px;
+  /* padding-top: 1px; */
   padding-left: 14px;
   margin: 0;
   vertical-align: top;

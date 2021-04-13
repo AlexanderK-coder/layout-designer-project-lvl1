@@ -334,14 +334,14 @@ span {
 /*!  Ikea Effect */
 
 #ikea-effect {
-  Position: relative;
+  /* Position: relative; */
   width: 1440px;
   height: 914px;
   /*top: 2719px; */
 }
 
 .table-main {
-  position: relative;
+  /* position: relative; */
   /* top: 97px; */
   width: 1110px;
   padding: 100px 165px;
@@ -359,7 +359,7 @@ span {
 }
 
 .page::before {
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   width: 1440px;
   /* max-width: 100%; */

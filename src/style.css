@@ -160,7 +160,7 @@ img {
 article {
   width: 1110px;
   height: 186px;
-  margin-top: 202px;
+  margin-top: 200px;
 }
 
 .columns-2 {
@@ -201,14 +201,14 @@ article {
   /* top: 914px; */
   left: 0 px;
   width: 1440px;
-  height: 814px;
+  height: 800px;
   padding-left: 165px;
   background-color: #fff;
 }
 
 .title-video {
   position: absolute;
-  top: 70px;
+  top: 94px;
 
   /* left: 165px; */
   width: 1110px;
@@ -260,8 +260,8 @@ article {
   left: 145px; */
   width: 1270px;
   height: 691px;
-  padding-top: 184px;
-  padding-left: 135px;
+  padding-top: 180px;
+  padding-left: 145px;
 
   border-spacing: 30px 20px;
   border-collapse: separate;
@@ -281,7 +281,7 @@ border-right: 0;
 
 .card-main {
   position: absolute;
-  padding: 0 0 0 5px;
+  padding: 0;
   font-family: "Neucha", cursive;
   font-size: 52px;
   line-height: 120%;

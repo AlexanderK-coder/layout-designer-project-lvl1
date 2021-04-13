@@ -346,9 +346,8 @@ span {
   width: 1110px;
   padding: 100px 165px;
   margin: 0;
-  border-spacing: colapse;
-
-  /* left: 163px; */
+ 
+  left: 163px;
 }
 
 .page {

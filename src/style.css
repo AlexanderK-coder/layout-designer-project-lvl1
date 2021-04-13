@@ -201,7 +201,7 @@ article {
   /* top: 914px; */
   left: 0 px;
   width: 1440px;
-  height: 800px;
+  height: 801px;
   padding-left: 165px;
   background-color: #fff;
 }
@@ -233,7 +233,7 @@ article {
 
 .video {
   position: absolute;
-  top: 330px;
+  top: 329px;
   left: 261px;
   z-index: 1;
   align-items: center;
@@ -261,7 +261,7 @@ article {
   width: 1270px;
   height: 691px;
   padding-top: 180px;
-  padding-left: 145px;
+  padding-left: 135px;
 
   border-spacing: 30px 20px;
   border-collapse: separate;

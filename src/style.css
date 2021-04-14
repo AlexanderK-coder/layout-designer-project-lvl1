@@ -399,7 +399,7 @@ span {
 .topic-title-1,
 .topic-title-2,
 .topic-title-3 {
-  padding-left: 50px;
+  padding-left: 53px;
   margin: 0;
   font-family: "Neucha", cursive;
   font-weight: 400;
@@ -421,10 +421,10 @@ span {
 }
 
 .topic-title-3 {
-  margin: 1px;
+  margin: 0px;
 
   font-size: 34px;
-  line-height: 41px;
+  line-height: 40px;
   color: var(--dark);
 }
 

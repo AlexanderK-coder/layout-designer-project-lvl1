@@ -447,6 +447,7 @@ font-style: normal;
 font-weight: 700;
 letter-spacing: 0.02em;
  color: var(--white);
+<<<<<<< HEAD
   /* font-size: 16px; */
   /* font-family: Open Sans; */
   font-size: 16px;
@@ -455,6 +456,20 @@ letter-spacing: 0.02em;
   letter-spacing: 0.02em;
   color: var(--white);
  text-align: left;
+||||||| 0512baa
+  text-align: left;
+=======
+=======
+  /* font-size: 16px; */
+  /* font-family: Open Sans; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--white);
+>>>>>>> e2f5b4df2b96fe138114bded218b44eadd0380ab
+  text-align: left;
+>>>>>>> 218d531d56cf4c35e11de7e8dde2b2506748c188
   vertical-align: top;
   background-color: var(--brown);
 }

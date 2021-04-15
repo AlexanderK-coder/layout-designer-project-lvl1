@@ -440,11 +440,14 @@ span {
   padding: auto;
   padding-left: 10px;
   margin: 0;
+  /* font-size: 16px; */
+  /* font-family: Open Sans; */
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
+  letter-spacing: 0.035em;
   color: var(--white);
-  letter-spacing: 0.02em;
+  text-align: left;
   vertical-align: top;
   background-color: var(--brown);
 }

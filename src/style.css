@@ -361,7 +361,7 @@ span {
   /* position: absolute;
   left: 0; */
   width: 1440px;
-  height: auto;
+  height: 914px;
 }
 
 .page-main::before {
@@ -551,7 +551,7 @@ span {
 /* ! конец Pre страницы */
 
 #distortion-of-novelty {
-  top: 5529px;
+  /* top: 5529px; */
 }
 
 /*! конец dist страницы */
@@ -559,7 +559,7 @@ span {
 #hyperbolic-depreciation {
   left: 0;
   width: 1440px;
-  height: 960px;
+  height: fit-content;
   padding: 100px 165px;
   background-color: var(--brown);
 }
@@ -578,15 +578,15 @@ span {
 }
 
 .page-2::before {
-  /* position: absolute; */
+  position: absolute;
   left: 0;
   width: 1440px;
 
   /* max-width: 100%; */
-  height: 906px;
+  height: 912pxpx;
 
-  /* max-height: 100%;
-  vertical-align: middle; */
+  /* max-height: 100%;*/
+  vertical-align: middle;
   content: "";
   background-image: url(background.png);
   background-repeat: no-repeat;

@@ -104,14 +104,14 @@ h3 {
 /* ! header */
 
 header {
-  position: relative;
+  /* position: relative; */
   left: 0 px;
   width: 1440px;
   height: auto;
   padding: 100px 165px;
 }
 
-header::before {
+header::after {
   position: absolute;
   top: 0;
   left: 0;
@@ -338,7 +338,6 @@ span {
 /*!  Ikea Effect */
 
 #ikea-effect {
-  /* Position: relative; */
   width: 1440px;
   height: 914px;
 
@@ -346,9 +345,6 @@ span {
 }
 
 .table-main {
-  /* position: relative; */
-
-  /* top: 97px; */
   left: 163px;
   width: 1110px;
   padding: 100px 165px;
@@ -358,8 +354,6 @@ span {
 }
 
 .page-main {
-  /* position: absolute;
-  left: 0; */
   width: 1440px;
   height: 914px;
 }
@@ -368,12 +362,7 @@ span {
   position: absolute;
   left: 0;
   width: 1440px;
-
-  /* max-width: 100%; */
   height: 914px;
-
-  /* max-height: 100%;
-  vertical-align: middle; */
   content: "";
   background-image: url(background.png);
   background-repeat: no-repeat;
@@ -450,7 +439,6 @@ span {
 }
 
 .description-2 {
-  /* padding-top: 1px; */
   padding-top: 4px;
   padding-left: 15px;
   margin: 0;
@@ -525,8 +513,6 @@ span {
 }
 
 .page {
-  /* position: absolute;
-  left: 0; */
   width: 1440px;
   height: auto;
 }
@@ -535,12 +521,7 @@ span {
   /* position: absolute; */
   left: 0;
   width: 1440px;
-
-  /* max-width: 100%; */
   height: 100%;
-
-  /* max-height: 100%;
-  vertical-align: middle; */
   content: "";
   background-image: url(background.png);
   background-repeat: no-repeat;
@@ -554,23 +535,16 @@ span {
   width: 1440px;
   height: 881px;
 }
+
 .page-main-2 {
-  /* position: absolute;
-  left: 0; */
   width: 1440px;
   height: 881px;
 }
 
 .page-main-2::before {
   position: absolute;
-  left: 0;
   width: 1440px;
-
-  /* max-width: 100%; */
   height: 881px;
-
-  /* max-height: 100%;
-  vertical-align: middle; */
   content: "";
   background-image: url(background.png);
   background-repeat: no-repeat;
@@ -588,9 +562,8 @@ span {
   padding: 100px 165px;
   background-color: var(--brown);
 }
+
 .page-1 {
-  /* position: relative; */
-  left: 0;
   width: 1440px;
   height: 930px;
 }
@@ -599,13 +572,11 @@ span {
   position: absolute;
   top: inherit;
   left: 0;
-  padding: 0;
   width: 1440px;
-
-  /* max-width: 100%; */
   height: 930px;
+  padding: 0;
 
-  vertical-align: top;
+  /* vertical-align: top; */
   content: "";
   background-image: url(background.png);
   background-repeat: no-repeat;
@@ -615,13 +586,11 @@ span {
 
 /*! конец Giper страницы */
 
-#errors-in-planning {
-  /* top: 7346px; */
-}
+/* #errors-in-planning {
+top: 7346px;
+} */
 
 .page-2 {
-  /* position: absolute;
-  left: 0; */
   width: 1440px;
   height: 912px;
 }
@@ -630,11 +599,7 @@ span {
   position: absolute;
   left: 0;
   width: 1440px;
-
-  /* max-width: 100%; */
   height: 912px;
-
-  /* max-height: 100%;*/
   vertical-align: middle;
   content: "";
   background-image: url(background.png);

@@ -354,6 +354,7 @@ span {
 }
 
 .page-main {
+  position: relative;
   width: 1440px;
   height: 914px;
 }
@@ -361,13 +362,14 @@ span {
 .page-main::before {
   position: absolute;
   left: 0;
-  width: 1440px;
-  height: 914px;
+  width: 100%;
+  height: 100%;
   content: "";
   background-image: url(background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 10%;
+  opacity: 0.1;
+  z-index: 0;
 }
 
 .img-title > td {

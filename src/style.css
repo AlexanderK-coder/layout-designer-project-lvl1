@@ -103,27 +103,30 @@ h3 {
 
 /* ! header */
 
-header {
+.header {
   position: relative;
-  left: 0 px;
-  width: 1440px;
-  height: auto;
-  padding: 100px 165px;
 }
 
-header::after {
+.header::before {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-
-  /* vertical-align: middle; */
   content: "";
   background-image: url(background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 10%;
+  opacity: 0.1;
+}
+
+.content {
+  position: relative;
+
+  /* display: flex;
+  flex-direction: column;
+  box-sizing: border-box; */
+  max-width: 1110px;
+  padding: 100px 0;
+  margin: 0 auto;
 }
 
 .title-main {
@@ -143,18 +146,19 @@ header::after {
 
 .main-foto {
   position: absolute;
-  top: 55px;
-  left: 461px;
+  top: 40px;
+  left: 280px;
   z-index: 1;
-  width: 1082.81px;
+
+  /* width: 1082.81px; */
   height: 525px;
 }
 
-img {
+/* img {
   max-width: 100%;
   max-height: 100%;
   vertical-align: middle;
-}
+} */
 
 article {
   width: 1110px;

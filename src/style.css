@@ -105,6 +105,7 @@ h3 {
 
 .header {
   position: relative;
+  height: 915px;
 }
 
 .header::before {
@@ -126,7 +127,7 @@ h3 {
   box-sizing: border-box; */
   max-width: 1110px;
   padding: 100px 0;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .title-main {
@@ -149,7 +150,6 @@ h3 {
   top: 55px;
   left: 295px;
   z-index: 1;
-
   width: 1082.81px;
   height: 525px;
 }

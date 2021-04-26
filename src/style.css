@@ -123,8 +123,8 @@ h3 {
   position: relative;
 
   /* display: flex;
-  flex-direction: column;
-  box-sizing: border-box; */
+  flex-direction: column; */
+  box-sizing: border-box;
   max-width: 1110px;
   height: 915px;
   padding: 100px 0;

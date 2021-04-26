@@ -227,7 +227,7 @@ article {
 }
 
 .title-video-1 {
-  margin-top: 32px;
+  margin-top: 35px;
 }
 
 .text-video-1 .title-video-1 {
@@ -242,7 +242,7 @@ article {
 
 .video {
   position: absolute;
-  top: 325px;
+  top: 328px;
   left: 261px;
   z-index: 1;
   align-items: center;

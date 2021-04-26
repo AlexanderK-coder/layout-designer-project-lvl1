@@ -57,10 +57,17 @@ a:hover {
 
 html,
 body,
-main,
 section {
   width: 1440px;
   height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+table,
+tr,
+td {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -94,23 +101,23 @@ h3 {
   font-size: 34px;
 }
 
+/* ! header */
+
 header {
-  position: absolute;
-  top: 200 px;
+  position: relative;
   left: 0 px;
   width: 1440px;
-  height: 914px;
-  margin-bottom: 100px;
+  height: auto;
+  padding: 100px 165px;
 }
 
-header::before {
+header::after {
   position: absolute;
-  top: 0 px;
-  width: 1440px;
-  max-width: 100%;
-  height: 960px;
-  max-height: 100%;
-  vertical-align: middle;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* vertical-align: middle; */
   content: "";
   background-image: url(background.png);
   background-repeat: no-repeat;
@@ -119,29 +126,17 @@ header::before {
 }
 
 .title-main {
-  position: absolute;
-  top: 100px;
-  left: 165px;
-  width: 1110px;
+  position: relative;
+  z-index: 2;
   height: 258px;
   text-align: left;
 }
 
 .title-1 {
-  top: 100px;
-  left: 165px;
-  width: 1110px;
-  height: 172px;
   color: var(--base);
 }
 
 .title-2 {
-  position: absolute;
-  top: 170px;
-  left: 0;
-  z-index: 2;
-  width: 1110px;
-  height: 75px;
   color: var(--dark);
 }
 
@@ -150,7 +145,7 @@ header::before {
   top: 55px;
   left: 461px;
   z-index: 1;
-  width: 1110px;
+  width: 1082.81px;
   height: 525px;
 }
 
@@ -160,53 +155,68 @@ img {
   vertical-align: middle;
 }
 
-.text-1 {
-  position: absolute;
-  left: 165px;
-  width: 540px;
-  height: 141px;
-  margin-top: 543px;
-}
-
-.text-2 {
-  position: absolute;
-  left: 735px;
-  width: 540px;
+article {
+  width: 1110px;
   height: 186px;
-  margin-top: 543px;
+  margin-top: 201px;
+
+  /* border-spacing: 0px;
+  border-width: 0px; */
 }
 
+.columns-2 {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.columns-2 > p {
+  margin-top: 0;
+}
+
+/* ? поиграться со шрифтом */
 .button {
-  position: absolute;
-  top: 753px;
-  left: 715px;
+  position: relative;
+  top: 8px;
+  left: 545px;
   width: 148px;
   height: 50px;
-  padding-left: 0;
   margin: 12px 24px;
 
-  /* font-family: "Open Sans", sans-serif; */
+  /* font-family: Open Sans; */
   font-size: 16px;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+
+  /* text-align: left; */
+  letter-spacing: 0 em;
   cursor: pointer;
   background-color: var(--base);
   border: none;
 }
 
-/** БЛОК ВИДЕО */
+/* ! БЛОК ВИДЕО */
+
+/* ? ПРОДОЛЖИТЬ ОТСЮДА */
 
 .video-main {
-  position: absolute;
-  top: 914px;
+  position: relative;
+
+  /* position: absolute; */
+
+  /* top: 914px; */
   left: 0 px;
   width: 1440px;
-  height: 914px;
+  height: 801px;
+  padding-left: 165px;
+  background-color: #fff;
 }
 
 .title-video {
   position: absolute;
-  top: 70px;
-  left: 165px;
+  top: 94px;
+
+  /* left: 165px; */
   width: 1110px;
   height: 220px;
   margin-bottom: 100px;
@@ -229,40 +239,53 @@ img {
 
 .video {
   position: absolute;
-  top: 330px;
+  top: 325px;
   left: 261px;
   z-index: 1;
   align-items: center;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
+/* ! Navigation */
+
 #navigation {
-  position: absolute;
-  top: 1730px;
+  /* position: relative;
+position: absolute;
+top: -100px; */
   left: 0 px;
   width: 1440px;
   height: 991px;
-  padding-bottom: 100px;
+
+  /* padding: 0px 165px 100px 165px; */
+
+  /* padding-left: 145px; */
   background: var(--base_dark);
 }
 
-table {
-  position: relative;
-  left: 130px;
-  width: 1170px;
+#navigation > table {
+  /* position: relative;
+  left: 145px; */
+  width: 1270px;
   height: 691px;
   padding-top: 180px;
+  padding-left: 135px;
   border-spacing: 30px 20px;
   border-collapse: separate;
 }
 
-td {
+.line-1 {
+  border-top: o;
+  border-right: 0;
+  border-left: 0;
+}
+
+#navigation > table > td {
   background-color: var(--white);
 }
 
 .card-main {
   position: absolute;
-  padding: 0 0 0 5px;
+  padding: 0;
   font-family: "Neucha", cursive;
   font-size: 52px;
   line-height: 120%;
@@ -312,56 +335,64 @@ span {
   color: var(--base);
 }
 
-/*  Ikea Effect */
+/*!  Ikea Effect */
 
 #ikea-effect {
-  top: 2719px;
+  width: 1440px;
+  height: 914px;
+
+  /* top: 2719px; */
 }
 
-/* модуль страницы вариант 1 */
-
-.page {
-  position: absolute;
-  left: 0;
-  width: 1440px;
-  height: 905px;
+.table-main {
+  left: 163px;
+  width: 1110px;
+  padding: 100px 165px;
+  margin: 0;
+  border-spacing: 0;
+  border-width: 0;
 }
 
-.page::before {
+.page-main {
+  position: relative;
+  width: 1440px;
+  height: 914px;
+}
+
+.page-main::before {
   position: absolute;
   left: 0;
-  width: 1440px;
-  max-width: 100%;
-  height: 960px;
-  max-height: 100%;
-  vertical-align: middle;
+  width: 100%;
+  height: 100%;
   content: "";
   background-image: url(background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 10%;
+  opacity: 0.1;
 }
 
-.page-left-foto {
+.img-title > td {
+  width: 50%;
+  vertical-align: top;
+}
+
+.img-title {
+  height: 534px;
+}
+
+.page-img {
   position: absolute;
-  top: 100px;
-  left: 165px;
   z-index: 1;
   width: 578px;
   height: 434px;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.right-foto {
-  left: 697px;
-}
-
-.right-topic-title {
-  position: absolute;
-  top: 100px;
-  left: 773px;
-  width: 502px;
-  height: 539px;
+.topic-title-1,
+.topic-title-2,
+.topic-title-3 {
+  padding-left: 53px;
+  margin: 0;
   font-family: "Neucha", cursive;
   font-weight: 400;
 }
@@ -369,7 +400,7 @@ span {
 .topic-title-1 {
   margin: 0;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 30px;
   color: var(--translucent-dark);
 }
 
@@ -384,53 +415,70 @@ span {
 .topic-title-3 {
   margin: 0;
   font-size: 34px;
-  line-height: 40.8px;
+  line-height: 40px;
   color: var(--dark);
 }
 
 .topic-text-title {
-  position: absolute;
-  top: 634px;
-  left: 165px;
-  column-gap: 30px;
-  width: 1110px;
-  height: 200px;
-  column-count: 2;
-  margin-top: 0;
-  text-align: initial;
-}
-
-.topic-text-title > h4 {
-  padding-left: 10px;
-  margin-top: 0;
-  color: var(--white);
-  text-align: left;
   column-span: all;
-  background-color: var(--brown);
-
-  /* font-size: 14px;
-  line-height: 16.8px; */
-}
-
-.topic-text-title > p {
+  width: 1110px;
+  height: 26px;
+  padding-left: 10px;
   margin: 0;
-  text-align: initial;
+
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  /* font-size: 16px; */
+  color: var(--white);
+  /* text-align: left;*/
+
+  /* line-height: 1.2em; */
+  /* vertical-align: ; */
+  background-color: var(--brown);
 }
 
-/* конец модуля страницы */
+.description-1 {
+  padding-top: 4px;
+  padding-right: 10px;
+  margin: 0;
+  vertical-align: top;
+}
 
-/* PreOpt страница отличия варианта 2  */
+.description-2 {
+  padding-top: 4px;
+  padding-left: 15px;
+  margin: 0;
+  vertical-align: top;
+}
+
+/* ! Оптимизация */
 
 #premature-optimization {
-  top: 3624px;
   left: 0;
   width: 1440px;
+  height: fit-content;
+  padding: 100px 165px;
   background-color: var(--brown);
 }
 
-.left-topic {
-  left: 165px;
-  color: var(--white);
+.table-main-random {
+  position: relative;
+  width: 1110px;
+  padding: 0;
+  margin: 0;
+  border-spacing: colapse;
+}
+
+.img-title-left {
+  width: 1110px;
+  height: 533px;
+  vertical-align: top;
+}
+
+.left-topic > p {
+  padding-left: 0;
 }
 
 .left-topic > .topic-title-1 {
@@ -445,32 +493,127 @@ span {
   color: var(--translucent-white);
 }
 
-.light-title > h4 {
+.light-title > td > h4 {
   color: var(--brown);
   background-color: var(--white);
+}
+
+.img-right {
+  position: absolute;
+  top: 0;
+  left: 530px;
 }
 
 .light {
   color: var(--white);
 }
 
-/* конец Pre страницы */
-
-#distortion-of-novelty {
-  top: 4529px;
+.description-1 > p {
+  margin-bottom: 0;
 }
 
-/* конец dist страницы */
+.description-2 > p {
+  margin-bottom: 0;
+}
+
+.left {
+  padding-left: 19px;
+}
+
+.page {
+  width: 1440px;
+  height: auto;
+}
+
+.page::before {
+  /* position: absolute; */
+  left: 0;
+  width: 1440px;
+  height: 100%;
+  content: "";
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
+}
+
+/* ! конец Pre страницы */
+
+#distortion-of-novelty {
+  width: 1440px;
+  height: 881px;
+}
+
+.page-main-2 {
+  width: 1440px;
+  height: 881px;
+}
+
+.page-main-2::before {
+  position: absolute;
+  width: 1440px;
+  height: 881px;
+  content: "";
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
+}
+
+/*! конец dist страницы */
 
 #hyperbolic-depreciation {
-  top: 5409px;
+  position: relative;
+  left: 0;
+  width: 1440px;
+  height: 930px;
+  padding: 100px 165px;
   background-color: var(--brown);
 }
 
-/* конец Giper страницы */
+.page-1 {
+  width: 1440px;
+  height: 930px;
+}
 
-#errors-in-planning {
-  top: 6346px;
+.page-1::before {
+  position: absolute;
+  top: inherit;
+  left: 0;
+  width: 1440px;
+  height: 930px;
+  padding: 0;
+
+  /* vertical-align: top; */
+  content: "";
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
+}
+
+/*! конец Giper страницы */
+
+/* #errors-in-planning {
+top: 7346px;
+} */
+
+.page-2 {
+  width: 1440px;
+  height: 912px;
+}
+
+.page-2::before {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+  height: 912px;
+  vertical-align: middle;
+  content: "";
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
 }
 
 blockquote {

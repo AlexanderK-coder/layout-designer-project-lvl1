@@ -4,7 +4,7 @@
 :root {
   --white: #fff; /* белый */
   --translucent-white: #d7ccc0; /* полупрозрачный белый */
-  --bright: #f5f4f0; /* светлый */
+  --bright: rgb(245, 244, 240); /* светлый */
   --base: #fe8a02; /* Основной */
   --base_dark: #42413c; /* Основной тёмный */
   --dark: #2a2626; /* Тёмный */
@@ -106,6 +106,7 @@ h3 {
 .header {
   position: relative;
   height: 915px;
+  background: var(--translucent-white);
 }
 
 .header::before {

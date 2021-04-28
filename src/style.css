@@ -106,7 +106,7 @@ h3 {
 .header {
   position: relative;
   height: 915px;
-  background: var(--translucent-white);
+  background: var(--bright);
 }
 
 .header::before {

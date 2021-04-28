@@ -498,7 +498,6 @@ span {
 }
 
 .page::before {
-  /* position: absolute; */
   left: 0;
   width: 1440px;
   height: 100%;

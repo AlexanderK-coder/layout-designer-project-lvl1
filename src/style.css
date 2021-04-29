@@ -255,6 +255,11 @@ article {
   border-left: 0;
 }
 
+.img-title > td {
+  width: 50%;
+  vertical-align: top;
+}
+
 #navigation > table > td {
   background-color: var(--white);
 }
@@ -344,11 +349,6 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
-}
-
-.img-title > td {
-  width: 50%;
-  vertical-align: top;
 }
 
 .img-title {

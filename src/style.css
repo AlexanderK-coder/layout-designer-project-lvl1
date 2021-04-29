@@ -109,9 +109,10 @@ header {
   width: 1440px;
   height: auto;
   padding: 100px 165px;
+  background-color: var(--bright);
 }
 
-header::after {
+header::before {
   position: absolute;
   top: 0;
   left: 0;

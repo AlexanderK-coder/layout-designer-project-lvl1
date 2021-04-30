@@ -102,7 +102,6 @@ h3 {
 }
 
 /* ! header */
-
 header {
   position: relative;
   left: 0 px;
@@ -188,7 +187,6 @@ article {
 }
 
 /* ! БЛОК ВИДЕО */
-
 .video-main {
   position: relative;
   left: 0 px;
@@ -231,7 +229,6 @@ article {
 }
 
 /* ! Navigation */
-
 #navigation {
   top: -100px;
   left: 0 px;
@@ -318,7 +315,6 @@ span {
 }
 
 /*!  Ikea Effect */
-
 #ikea-effect {
   width: 1440px;
   height: 914px;

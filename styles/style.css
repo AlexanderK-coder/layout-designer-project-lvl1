@@ -339,7 +339,7 @@ span {
   position: absolute;
   left: 0;
   content: "";
-  background-image: url(/src/background.png)
+  background-image: url(/src/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;

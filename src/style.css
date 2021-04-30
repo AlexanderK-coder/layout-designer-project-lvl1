@@ -233,7 +233,7 @@ article {
 /* ! Navigation */
 
 #navigation {
-  top: -100px; */
+  top: -100px;
   left: 0 px;
   width: 1440px;
   height: 991px;
@@ -241,7 +241,7 @@ article {
 }
 
 #navigation > table {
-  left: 145px; */
+  left: 145px;
   width: 1270px;
   height: 691px;
   padding-top: 180px;
@@ -254,6 +254,11 @@ article {
   border-top: o;
   border-right: 0;
   border-left: 0;
+}
+
+.img-title > td {
+  width: 50%;
+  vertical-align: top;
 }
 
 #navigation > table > td {
@@ -347,11 +352,6 @@ span {
   opacity: 0.1;
 }
 
-.img-title > td {
-  width: 50%;
-  vertical-align: top;
-}
-
 .img-title {
   height: 534px;
 }
@@ -401,11 +401,10 @@ span {
   height: 26px;
   padding-left: 10px;
   margin: 0;
-
   font-size: 14px;
   font-weight: 700;
-  text-transform: uppercase;
   color: var(--white);
+  text-transform: uppercase;
   background-color: var(--brown);
 }
 
